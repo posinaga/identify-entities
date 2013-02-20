@@ -1,0 +1,42 @@
+----------------------------------------
+File list:
+----------------------------------------
+
+PDFNetC.dll             Dynamic link library for C/C++/Java/Python/Ruby programs on Windows platforms.
+libPDFNetC.so           Dynamic link library for C/C++/Java/PHP/Python/Ruby programs on Linux or OSX.
+
+--C/C++--
+PDFNetC.lib             Stub library for linking with the DLL on Windows platforms.
+
+--JAVA--
+PDFNet.jar              Java interface library.
+
+--PHP 5.3.6--
+PDFNetPHP.php           Interface file for PHP programs on Windows, Linux, and OSX platforms.
+PDFNetPHP.so            Dynamic link library for PHP programs on Linux and OSX platforms.
+php_PDFNet.dll          Dynamic link library for PHP programs on Windows platforms (Non-thread safe).
+php_PDFNetTS.dll        Dynamic link library for PHP programs on Windows platforms (Thread safe).
+
+--Python 2.7.3--
+PDFNetPython2.py        Interface file for Python programs on Windows, Linux, and OSX platforms.
+_PDFNetPython2.so       Dynamic link library for Python programs on Linux and OSX platforms (UCS2).
+_PDFNetPython2_ucs4.so  Dynamic link library for Python programs on Linux and OSX platforms (UCS4).
+_PDFNetPython2.pyd      Dynamic link library for Python programs on Windows platforms.
+
+Python2 wrapper comes with _PDFNetPython2_ucs4.so to use PDFNetC with Python interpreters that are built with 4-byte
+Unicode. To use this wrapper, rename _PDFNetPython2_ucs4.so to _PDFNetPython2.so and replace the original file.
+
+--Python 3.2.3--
+PDFNetPython3.py        Interface file for Python programs on Windows, Linux, and OSX platforms.
+_PDFNetPython3.so       Dynamic link library for Python programs on Linux and OSX platforms.
+_PDFNetPython3.pyd      Dynamic link library for Python programs on Windows platforms.
+
+--Ruby 1.9.2--
+PDFNetRuby.so           Dynamic link library for Ruby programs on Windows, Linux, and OSX platforms.
+
+
+------
+Above indicated the recommended version of langauge to use with the libraries. The libraries 
+might work with different language versions but compatibility issues may occur.
+
+
